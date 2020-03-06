@@ -1,0 +1,926 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "2bcd81ba-02dc-433b-b774-a0557734fdb0": {
+                "size": {
+                    "width": 340,
+                    "height": 220
+                },
+                "position": {
+                    "x": 220,
+                    "y": 90
+                },
+                "z": 0,
+                "embeds": [
+                    "130a0cff-06c5-430d-bfbb-642a9fbc6261",
+                    "e4a31c9c-a128-4041-9671-ea1b3f06c881",
+                    "7760da6b-8df9-4e13-8533-5585ec71470b",
+                    "fe5ec58d-3641-49f5-bc56-01d5ec9d5072",
+                    "82921edb-b17a-418f-94a9-657c4a717b62"
+                ]
+            },
+            "7760da6b-8df9-4e13-8533-5585ec71470b": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 450,
+                    "y": 130
+                },
+                "z": 1,
+                "parent": "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                "embeds": [],
+                "isassociatedwith": [
+                    "e4a31c9c-a128-4041-9671-ea1b3f06c881"
+                ],
+                "iscontainedinside": [
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0"
+                ]
+            },
+            "e4a31c9c-a128-4041-9671-ea1b3f06c881": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 270,
+                    "y": 130
+                },
+                "z": 1,
+                "parent": "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                "embeds": [],
+                "iscontainedinside": [
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0"
+                ]
+            },
+            "eb11334d-ccdf-4679-9a0d-e9afcbf8400a": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 50,
+                    "y": 230
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "21f5fcd7-8107-4eee-84af-cfbb55df9786": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -100,
+                    "y": 110
+                },
+                "z": 0,
+                "embeds": [],
+                "isassociatedwith": [
+                    "6b972c39-ce84-4eb3-bfa3-416991fd8533"
+                ]
+            },
+            "6b972c39-ce84-4eb3-bfa3-416991fd8533": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -100,
+                    "y": 230
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "78d7b9c8-2801-4136-8e18-e9788af2d438": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 50,
+                    "y": 110
+                },
+                "z": 0,
+                "embeds": [],
+                "isassociatedwith": [
+                    "eb11334d-ccdf-4679-9a0d-e9afcbf8400a"
+                ]
+            },
+            "1fab1698-c067-4f60-bab4-ff499e047750": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 780,
+                    "y": 230
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "57302414-c485-4b66-8026-b1681c4e4ccc": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 630,
+                    "y": 230
+                },
+                "z": 0,
+                "embeds": [],
+                "isassociatedwith": [
+                    "1fab1698-c067-4f60-bab4-ff499e047750"
+                ]
+            },
+            "4439ceb2-da95-48fa-a571-20101d77b2c3": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 780,
+                    "y": 110
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "85508423-714d-49a1-add7-afe2a7713e11": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 630,
+                    "y": 110
+                },
+                "z": 0,
+                "embeds": [],
+                "isassociatedwith": [
+                    "4439ceb2-da95-48fa-a571-20101d77b2c3"
+                ]
+            },
+            "82921edb-b17a-418f-94a9-657c4a717b62": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 250,
+                    "y": 220
+                },
+                "z": 1,
+                "parent": "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                "embeds": [],
+                "isassociatedwith": [
+                    "fe5ec58d-3641-49f5-bc56-01d5ec9d5072"
+                ],
+                "iscontainedinside": [
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0"
+                ]
+            },
+            "fe5ec58d-3641-49f5-bc56-01d5ec9d5072": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 360,
+                    "y": 220
+                },
+                "z": 1,
+                "parent": "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                "embeds": [],
+                "iscontainedinside": [
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0"
+                ],
+                "dependson": [
+                    "7760da6b-8df9-4e13-8533-5585ec71470b",
+                    "130a0cff-06c5-430d-bfbb-642a9fbc6261"
+                ]
+            },
+            "130a0cff-06c5-430d-bfbb-642a9fbc6261": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 460,
+                    "y": 220
+                },
+                "z": 1,
+                "parent": "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                "embeds": [],
+                "iscontainedinside": [
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0",
+                    "2bcd81ba-02dc-433b-b774-a0557734fdb0"
+                ]
+            },
+            "9f130a8f-128d-4c3b-a949-dfb4fabb89d8": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 920,
+                    "y": 110
+                },
+                "z": 0,
+                "embeds": []
+            }
+        }
+    },
+    "Resources": {
+        "apiAuthorizer": {
+            "Type": "AWS::ApiGateway::Authorizer",
+            "Properties": {
+                "Name": "apiAuthorizer",
+                "RestApiId": {
+                    "Ref": "imgProcApi"
+                },
+                "Type": "TOKEN",
+                "AuthorizerResultTtlInSeconds": 0,
+                "AuthorizerUri": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "arn:aws:apigateway:",
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            ":lambda:path/2015-03-31/functions/",
+                            {
+                                "Fn::GetAtt": [
+                                    "apiAuthorizerLambda",
+                                    "Arn"
+                                ]
+                            },
+                            "/invocations"
+                        ]
+                    ]
+                },
+                "IdentitySource": "method.request.header.Authorization"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "e4a31c9c-a128-4041-9671-ea1b3f06c881"
+                }
+            }
+        },
+        "apiAuthorizerLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "FunctionName": "apiAuthorizerLambda",
+                "Handler": {
+                    "Ref": "authorizerLambdaHandler"
+                },
+                "Runtime": "nodejs12.x",
+                "Timeout": 30,
+                "Environment": {
+                    "Variables": {
+                        "ALLOWED_SECURITY_TOKEN": {
+                            "Ref": "allowedSecurityToken"
+                        }
+                    }
+                },
+                "Code": {
+                    "S3Bucket": {
+                        "Ref": "lambdaS3BucketName"
+                    },
+                    "S3Key": {
+                        "Ref": "authorizerLambdaZipfileName"
+                    }
+                },
+                "Role": {
+                    "Fn::GetAtt": [
+                        "apiAuthorizerLambdaExecutionRole",
+                        "Arn"
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "eb11334d-ccdf-4679-9a0d-e9afcbf8400a"
+                }
+            }
+        },
+        "apiAuthorizerLambdaExecutionPolicy": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyName": "apiAuthorizerLambdaExecutionPolicy",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Sid": "apiAuthorizerLambdaExecutionPolicy",
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogGroup",
+                                "logs:PutLogEvents",
+                                "logs:CreateLogStream"
+                            ],
+                            "Resource": "*"
+                        }
+                    ]
+                },
+                "Roles": [
+                    {
+                        "Ref": "apiAuthorizerLambdaExecutionRole"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "21f5fcd7-8107-4eee-84af-cfbb55df9786"
+                }
+            }
+        },
+        "apiAuthorizerLambdaExecutionRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                            },
+                            "Action": "sts:AssumeRole"
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "6b972c39-ce84-4eb3-bfa3-416991fd8533"
+                }
+            }
+        },
+        "apiAuthorizerLambdaFunctionPolicy": {
+            "Type": "AWS::Lambda::Permission",
+            "Properties": {
+                "FunctionName": {
+                    "Ref": "apiAuthorizerLambda"
+                },
+                "Action": "lambda:InvokeFunction",
+                "Principal": "apigateway.amazonaws.com",
+                "SourceArn": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "arn:aws:execute-api:",
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            ":",
+                            {
+                                "Ref": "AWS::AccountId"
+                            },
+                            ":",
+                            {
+                                "Ref": "imgProcApi"
+                            },
+                            "/authorizers/",
+                            {
+                                "Ref": "apiAuthorizer"
+                            },
+                            ""
+                        ]
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "78d7b9c8-2801-4136-8e18-e9788af2d438"
+                }
+            }
+        },
+        "apiPostMethod": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "imgProcApi"
+                },
+                "AuthorizationType": "CUSTOM",
+                "AuthorizerId": {
+                    "Ref": "apiAuthorizer"
+                },
+                "HttpMethod": "POST",
+                "ResourceId": {
+                    "Fn::GetAtt": [
+                        "imgProcApi",
+                        "RootResourceId"
+                    ]
+                },
+                "OperationName": "ImageToText",
+                "Integration": {
+                    "Type": "AWS_PROXY",
+                    "IntegrationHttpMethod": "POST",
+                    "Uri": {
+                        "Fn::Sub": "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${imgProcLambda.Arn}/invocations"
+                    },
+                    "IntegrationResponses": [
+                        {
+                            "StatusCode": 200
+                        }
+                    ]
+                },
+                "MethodResponses": [
+                    {
+                        "StatusCode": 200,
+                        "ResponseModels": {
+                            "application/json": "Empty"
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7760da6b-8df9-4e13-8533-5585ec71470b"
+                }
+            }
+        },
+        "imgProcApi": {
+            "Type": "AWS::ApiGateway::RestApi",
+            "Properties": {
+                "Name": "imgProcApi",
+                "Description": "REST API for image processing",
+                "EndpointConfiguration": {
+                    "Types": [
+                        "REGIONAL"
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "2bcd81ba-02dc-433b-b774-a0557734fdb0"
+                }
+            }
+        },
+        "imgProcLambdaExecutionRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                            },
+                            "Action": "sts:AssumeRole"
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "1fab1698-c067-4f60-bab4-ff499e047750"
+                }
+            }
+        },
+        "imgProcLambdaExecutionPolicy": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyName": "imgProcLambdaExecutionPolicy",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Sid": "imgProcLambdaExecutionPolicy",
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:CreateLogGroup",
+                                "logs:PutLogEvents",
+                                "logs:CreateLogStream",
+                                "kms:Decrypt"
+                            ],
+                            "Resource": "*"
+                        }
+                    ]
+                },
+                "Roles": [
+                    {
+                        "Ref": "imgProcLambdaExecutionRole"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "57302414-c485-4b66-8026-b1681c4e4ccc"
+                }
+            }
+        },
+        "imgProcLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "FunctionName": "imgProcLambda",
+                "Handler": {
+                    "Ref": "imgProcLambdaHandler"
+                },
+                "Runtime": "nodejs12.x",
+                "Timeout": 300,
+                "Environment": {
+                    "Variables": {
+                        "GOOGLE_API_KEY": {
+                            "Ref": "googleAPIKey"
+                        }
+                    }
+                },
+                "Code": {
+                    "S3Bucket": {
+                        "Ref": "lambdaS3BucketName"
+                    },
+                    "S3Key": {
+                        "Ref": "imgProcLambdaZipfileName"
+                    }
+                },
+                "Role": {
+                    "Fn::GetAtt": [
+                        "imgProcLambdaExecutionRole",
+                        "Arn"
+                    ]
+                },
+                "Layers": [
+                    {
+                        "Ref": "nodeModulesLayer"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "4439ceb2-da95-48fa-a571-20101d77b2c3"
+                }
+            }
+        },
+        "imgProcLambdaFunctionPolicy": {
+            "Type": "AWS::Lambda::Permission",
+            "Properties": {
+                "FunctionName": {
+                    "Ref": "imgProcLambda"
+                },
+                "Action": "lambda:InvokeFunction",
+                "Principal": "apigateway.amazonaws.com",
+                "SourceArn": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "arn:aws:execute-api:",
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            ":",
+                            {
+                                "Ref": "AWS::AccountId"
+                            },
+                            ":",
+                            {
+                                "Ref": "imgProcApi"
+                            },
+                            "/*/POST/*"
+                        ]
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "85508423-714d-49a1-add7-afe2a7713e11"
+                }
+            }
+        },
+        "apiDevStage": {
+            "Type": "AWS::ApiGateway::Stage",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "imgProcApi"
+                },
+                "Description": "Development stage for converter API",
+                "StageName": "Dev",
+                "DeploymentId": {
+                    "Ref": "apiDeployment"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "82921edb-b17a-418f-94a9-657c4a717b62"
+                }
+            }
+        },
+        "apiDeployment": {
+            "Type": "AWS::ApiGateway::Deployment",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "imgProcApi"
+                },
+                "Description": "Deployment for image processing API"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "fe5ec58d-3641-49f5-bc56-01d5ec9d5072"
+                }
+            },
+            "DependsOn": [
+                "apiPostMethod",
+                "apiOptionsMethod"
+            ]
+        },
+        "apiOptionsMethod": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "imgProcApi"
+                },
+                "AuthorizationType": "NONE",
+                "HttpMethod": "OPTIONS",
+                "ResourceId": {
+                    "Fn::GetAtt": [
+                        "imgProcApi",
+                        "RootResourceId"
+                    ]
+                },
+                "OperationName": "ImageToTextCORS",
+                "MethodResponses": [
+                    {
+                        "StatusCode": 200,
+                        "ResponseModels": {
+                            "application/json": "Empty"
+                        },
+                        "ResponseParameters": {
+                            "method.response.header.Access-Control-Allow-Headers": true,
+                            "method.response.header.Access-Control-Allow-Methods": true,
+                            "method.response.header.Access-Control-Allow-Origin": true
+                        }
+                    }
+                ],
+                "Integration": {
+                    "Type": "MOCK",
+                    "IntegrationResponses": [
+                        {
+                            "StatusCode": 200,
+                            "ResponseTemplates": {
+                                "application/json": ""
+                            },
+                            "ResponseParameters": {
+                                "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'",
+                                "method.response.header.Access-Control-Allow-Methods": "'POST,OPTIONS'",
+                                "method.response.header.Access-Control-Allow-Origin": "'*'"
+                            }
+                        }
+                    ],
+                    "RequestTemplates": {
+                        "application/json": "{\"statusCode\": 200}"
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "130a0cff-06c5-430d-bfbb-642a9fbc6261"
+                }
+            }
+        },
+        "nodeModulesLayer": {
+            "Type": "AWS::Lambda::LayerVersion",
+            "Properties": {
+                "CompatibleRuntimes": [
+                    "nodejs12.x"
+                ],
+                "Description": "Layer to hold NodeJS dependencies (modules)",
+                "LicenseInfo": "GPL-3.0-or-later",
+                "Content": {
+                    "S3Bucket": {
+                        "Ref": "lambdaS3BucketName"
+                    },
+                    "S3Key": {
+                        "Ref": "nodeModulesZipfileName"
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "9f130a8f-128d-4c3b-a949-dfb4fabb89d8"
+                }
+            }
+        }
+    },
+    "Parameters": {
+        "lambdaS3BucketName": {
+            "Description": "S3 bucket name where Lambda code resides",
+            "Type": "String"
+        },
+        "authorizerLambdaZipfileName": {
+            "Description": "Authorizer lambda code zipfile name",
+            "Type": "String"
+        },
+        "authorizerLambdaHandler": {
+            "Description": "Authorizer Lambda entry point name",
+            "Type": "String"
+        },
+        "allowedSecurityToken": {
+            "Description": "Security token to be passed along with the API request for authenticating the caller",
+            "Type": "String"
+        },
+        "imgProcLambdaZipfileName": {
+            "Description": "Image processing lambda code zipfile name",
+            "Type": "String"
+        },
+        "imgProcLambdaHandler": {
+            "Description": "Image processing lambda entry point name",
+            "Type": "String"
+        },
+        "nodeModulesZipfileName": {
+            "Description": "NodeJS dependencies (modules) zipfile name",
+            "Type": "String"
+        },
+        "googleAPIKey": {
+            "Description": "Google API key in encrypted base64 format",
+            "Type": "String"
+        }
+    },
+    "Outputs": {
+        "APIEndpointURL": {
+            "Description": "URL of the Image Processing API",
+            "Value": {
+                "Fn::Join": [
+                    "",
+                    [
+                        "https://",
+                        {
+                            "Ref": "imgProcApi"
+                        },
+                        ".execute-api.",
+                        {
+                            "Ref": "AWS::Region"
+                        },
+                        ".amazonaws.com/",
+                        {
+                            "Ref": "apiDevStage"
+                        },
+                        "/"
+                    ]
+                ]
+            }
+        }
+    }
+}

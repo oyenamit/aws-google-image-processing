@@ -1,0 +1,16 @@
+{
+  "name": "imageProcessor",
+  "version": "1.0.0",
+  "description": "Image Processing using Google APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Namit Bhalla",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@google-cloud/language": "^2.0.1",
+    "@google-cloud/vision": "^0.24.0",
+    "request": "^2.88.0"
+  }
+}
