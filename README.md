@@ -30,23 +30,32 @@ The approach outlined here is just one of the ways to manage API keys. Alternati
 
 ## Generating NodeJS Dependencies
 The solution already provides a package containing dependencies for NodeJS. It was generated using the following [steps](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html):
-1. Launch an [EC2](https://console.aws.amazon.com/ec2/) instance.
+1. Launch an [EC2](https://console.aws.amazon.com/ec2/) instance. A standard **t2.micro** with *Amazon Linux 2 AMI (HVM) 64-bit (x86)* is sufficient. We will terminate the instance once we generate the dependent libraries.
 2. Login to the EC2 instance using an SSH client like [PuTTY](https://www.putty.org/). 
 3. Create a folder named `nodejs` and change directory to this new folder.  
 `mkdir nodejs`  
 `cd nodejs`
-4. Copy the `package.json` file to the EC2 instance and place it inside the `nodejs` folder.
+4. Copy the [package.json](src/imageProcessingLambda/package.json) file to the EC2 instance and place it inside the `nodejs` folder.
 5. Install the [Node Version Manager](https://github.com/nvm-sh/nvm)  
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash`
-6. Install NodeJS. Since we are using Node v12.x for lambda code, install the corresponding version.  
+6. Activate `nvm`.  
+`. ~/.nvm/nvm.sh`
+7. Install NodeJS. Since we are using Node v12.x for lambda code, install the corresponding version.  
 `nvm install 12.16.1`
-7. Install the dependencies listed in `package.json`  
+8. Confirm that `node` has been successfully installed by running the following command:  
+`node --version`  
+It should print the following output:  
+`v12.16.1`
+9. Install the dependencies listed in `package.json`  
 `npm install`
-8. The dependencies will be placed in *"node_modules"* folder. Change directory to parent folder. Zip the folder and transfer it back to your local system. This example uses PuTTY.  
+10. We no longer need `package.json` and the newly generated `package-lock.json` files.  
+`rm package*`
+10. The dependencies will be placed in *"node_modules"* folder. Change directory to parent folder and zip the `nodejs` folder.  
 `cd ..`  
-`zip -X -r node_modules.zip nodejs`  
+`zip -X -r node_modules.zip nodejs`
+11. Open a terminal on your local system and run the following command to copy the zip file to your local system. This example uses PuTTY on Windows.  
 `pscp -i <path to .ppk file> ec2-user@<IP of EC2>:/home/ec2-user/node_modules.zip <your local system folder path>`
-9. Terminate the EC2 instance.
+12. Terminate the EC2 instance.
 
 ## Instructions
 1. To invoke Google APIs, you must create a Google Cloud account and generate an [API key](https://cloud.google.com/docs/authentication/api-keys)
